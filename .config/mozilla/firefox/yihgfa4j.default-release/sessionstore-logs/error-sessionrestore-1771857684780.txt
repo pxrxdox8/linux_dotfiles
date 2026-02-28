@@ -1,0 +1,1 @@
+1771857685969	SessionStore	ERROR	NotReadableError when reading session file: recovery: NotReadableError: Could not read `/home/pxrxdox/.config/mozilla/firefox/yihgfa4j.default-release/sessionstore-backups/recovery.jsonlz4': could not decompress file: buffer is too small (NS_ERROR_FILE_CORRUPTED) No traceback available

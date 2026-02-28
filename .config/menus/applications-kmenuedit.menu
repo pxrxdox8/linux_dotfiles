@@ -1,0 +1,126 @@
+<!DOCTYPE Menu PUBLIC '-//freedesktop//DTD Menu 1.0//EN' 'http://www.freedesktop.org/standards/menu-spec/menu-1.0.dtd'>
+<Menu>
+ <Menu>
+  <Name>Help</Name>
+  <Layout>
+   <Merge type="files"/>
+   <Filename>org.kde.kinfocenter.desktop</Filename>
+   <Filename>org.kde.plasma-welcome.desktop</Filename>
+  </Layout>
+  <Exclude>
+   <Filename>assistant.desktop</Filename>
+  </Exclude>
+ </Menu>
+ <Menu>
+  <Name>Internet</Name>
+  <Layout>
+   <Merge type="files"/>
+   <Filename>firefox.desktop</Filename>
+   <Separator/>
+   <Merge type="menus"/>
+   <Menuname>More</Menuname>
+  </Layout>
+  <Menu>
+   <Name>Terminal</Name>
+   <Deleted/>
+  </Menu>
+  <Exclude>
+   <Filename>bssh.desktop</Filename>
+   <Filename>bvnc.desktop</Filename>
+  </Exclude>
+ </Menu>
+ <Menu>
+  <Name>Multimedia</Name>
+  <Layout>
+   <Separator/>
+   <Merge type="menus"/>
+   <Menuname>More</Menuname>
+  </Layout>
+  <Exclude>
+   <Filename>qvidcap.desktop</Filename>
+   <Filename>qv4l2.desktop</Filename>
+  </Exclude>
+ </Menu>
+ <Menu>
+  <Name>System</Name>
+  <Layout>
+   <Merge type="menus"/>
+   <Menuname>ScreenSavers</Menuname>
+   <Menuname>Terminal</Menuname>
+   <Merge type="files"/>
+   <Filename>btop.desktop</Filename>
+   <Filename>org.kde.discover.desktop</Filename>
+   <Filename>org.kde.dolphin.desktop</Filename>
+   <Filename>lstopo.desktop</Filename>
+   <Filename>htop.desktop</Filename>
+   <Filename>org.kde.kinfocenter.desktop</Filename>
+   <Filename>kitty.desktop</Filename>
+   <Filename>org.kde.konsole.desktop</Filename>
+   <Filename>org.kde.kmenuedit.desktop</Filename>
+   <Filename>org.kde.plasma-systemmonitor.desktop</Filename>
+   <Filename>systemsettings.desktop</Filename>
+   <Separator/>
+   <Menuname>More</Menuname>
+  </Layout>
+  <Exclude>
+   <Filename>org.kde.drkonqi.coredump.gui.desktop</Filename>
+   <Filename>avahi-discover.desktop</Filename>
+  </Exclude>
+ </Menu>
+ <Menu>
+  <Name>Utilities</Name>
+  <Layout>
+   <Merge type="menus"/>
+   <Menuname>XUtilities</Menuname>
+   <Merge type="files"/>
+   <Filename>org.kde.ark.desktop</Filename>
+   <Filename>org.kde.plasma.emojier.desktop</Filename>
+   <Filename>geany.desktop</Filename>
+   <Filename>org.kde.kate.desktop</Filename>
+   <Filename>org.kde.kwrite.desktop</Filename>
+   <Filename>nvim.desktop</Filename>
+   <Filename>org.kde.spectacle.desktop</Filename>
+   <Filename>vim.desktop</Filename>
+   <Separator/>
+   <Menuname>More</Menuname>
+  </Layout>
+  <Exclude>
+   <Filename>xgps.desktop</Filename>
+   <Filename>xgpsspeed.desktop</Filename>
+  </Exclude>
+ </Menu>
+ <Menu>
+  <Name>.hidden</Name>
+  <Include>
+   <Filename>qvidcap.desktop</Filename>
+   <Filename>qv4l2.desktop</Filename>
+   <Filename>bssh.desktop</Filename>
+   <Filename>bvnc.desktop</Filename>
+   <Filename>org.kde.drkonqi.coredump.gui.desktop</Filename>
+   <Filename>avahi-discover.desktop</Filename>
+   <Filename>xgps.desktop</Filename>
+   <Filename>xgpsspeed.desktop</Filename>
+   <Filename>assistant.desktop</Filename>
+   <Filename>designer.desktop</Filename>
+   <Filename>linguist.desktop</Filename>
+   <Filename>qdbusviewer.desktop</Filename>
+  </Include>
+ </Menu>
+ <Menu>
+  <Name>Development</Name>
+  <Layout>
+   <Merge type="menus"/>
+   <Menuname>Translation</Menuname>
+   <Menuname>Web Development</Menuname>
+   <Merge type="files"/>
+   <Filename>geany.desktop</Filename>
+   <Filename>org.kde.kate.desktop</Filename>
+  </Layout>
+  <Exclude>
+   <Filename>assistant.desktop</Filename>
+   <Filename>designer.desktop</Filename>
+   <Filename>linguist.desktop</Filename>
+   <Filename>qdbusviewer.desktop</Filename>
+  </Exclude>
+ </Menu>
+</Menu>
